@@ -1,0 +1,67 @@
+{
+  "mesaj_straturi": {
+    "straturi": [
+      "base64",
+      "base64",
+      "hex"
+    ],
+    "rezultat": "FLAG{straturi_de_encoding}"
+  },
+  "xor": {
+    "cheie": 128,
+    "cheie_hex": "0x80",
+    "rezultat": "Un singur octet tine tot secretul... gaseste-l! FLAG{xor_un_octet}"
+  },
+  "hashuri": [
+    {
+      "hash": "5f4dcc3b5aa765d61d8327deb882cf99",
+      "algoritm": "md5",
+      "parola": "password"
+    },
+    {
+      "hash": "8621ffdbc5698829397d97767ac13db3",
+      "algoritm": "md5",
+      "parola": "dragon"
+    },
+    {
+      "hash": "d8578edf8458ce06fbc5bb76a58c5ca4",
+      "algoritm": "md5",
+      "parola": "qwerty"
+    },
+    {
+      "hash": "0d107d09f5bbe40cade3de5c71e9e9b7",
+      "algoritm": "md5",
+      "parola": "letmein"
+    },
+    {
+      "hash": "d0763edaa9d9bd2a9516280e9044d885",
+      "algoritm": "md5",
+      "parola": "monkey"
+    }
+  ],
+  "fisiere": {
+    "tip_foto": "jpeg",
+    "tip_ascuns": "png",
+    "strings_relevante": [
+      "secret.txtFLAG{ascuns_prin_carving}",
+      "secret.txtPK"
+    ],
+    "exif": {
+      "Model": "iPhone 13",
+      "DateTime": "2026:09:14 10:30:00",
+      "Make": "Apple",
+      "GPSDecimal": {
+        "latitudine": 47.016667,
+        "longitudine": 28.8575
+      }
+    },
+    "carving": {
+      "offset": 782,
+      "arhiva": "C:\\Users\\Y\\Documents\\Codex\\2026-10-20\\files-mentioned-by-the-user-laborator\\work\\lab6_forensics\\gasit.zip",
+      "fisiere": [
+        "secret.txt"
+      ]
+    }
+  },
+  "mesaj_lsb": "FLAG{ascuns_in_pixeli}"
+}

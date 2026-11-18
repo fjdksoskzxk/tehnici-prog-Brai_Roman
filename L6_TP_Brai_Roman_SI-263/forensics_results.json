@@ -1,0 +1,24 @@
+{
+  "tip_foto": "jpeg",
+  "tip_ascuns": "png",
+  "strings_relevante": [
+    "secret.txtFLAG{ascuns_prin_carving}",
+    "secret.txtPK"
+  ],
+  "exif": {
+    "Model": "iPhone 13",
+    "DateTime": "2026:09:14 10:30:00",
+    "Make": "Apple",
+    "GPSDecimal": {
+      "latitudine": 47.016667,
+      "longitudine": 28.8575
+    }
+  },
+  "carving": {
+    "offset": 782,
+    "arhiva": "C:\\Users\\Y\\Documents\\Codex\\2026-10-20\\files-mentioned-by-the-user-laborator\\work\\lab6_forensics\\gasit.zip",
+    "fisiere": [
+      "secret.txt"
+    ]
+  }
+}
