@@ -1,0 +1,20 @@
+{
+  "procese": 7,
+  "procese_suspecte": [
+    {
+      "pid": 3120,
+      "nume": "update.exe",
+      "user": "ana",
+      "cale": "C:\\Users\\ana\\AppData\\Local\\Temp\\update.exe"
+    },
+    {
+      "pid": 3890,
+      "nume": "svch0st.exe",
+      "user": "ana",
+      "cale": "C:\\Users\\ana\\AppData\\Roaming\\svch0st.exe"
+    }
+  ],
+  "evenimente": 8,
+  "alarme": 5,
+  "scor_risc": 7
+}

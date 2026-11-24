@@ -1,0 +1,24 @@
+VERIFICARE INVENTAR WINDOWS
+Comanda: python -m arsenal.windows.inventar arsenal/windows/start
+
+Procese: 7 | suspecte: 2
+  [3120] update.exe  (ana)  C:\Users\ana\AppData\Local\Temp\update.exe
+  [3890] svch0st.exe  (ana)  C:\Users\ana\AppData\Roaming\svch0st.exe
+Evenimente: 8 | alarma: 5
+  4625 [warning] administrator: An account failed to log on
+  7045 [warning] SYSTEM: A service was installed: WinUpdateSvc
+  1102 [critical] administrator: The audit log was cleared
+Scor de risc: 7
+
+VERIFICARE TESTE
+Comanda: python -m unittest arsenal.windows.test_inventar -v
+
+test_eveniment_suspect_dupa_id_sau_nivel ... ok
+test_incarcare_si_raport ... ok
+test_inventar_suspecte_si_grupare ... ok
+test_json_invalid ... ok
+test_proces_din_temp_e_suspect ... ok
+test_proces_din_windows_nu_e_suspect ... ok
+
+Ran 6 tests
+OK
