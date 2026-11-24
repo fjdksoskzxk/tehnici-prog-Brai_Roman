@@ -1,0 +1,27 @@
+LABORATORUL 13 - WITH SI PYTEST
+
+LUCRAREA A - SCANAREA PROBELOR
+Comanda: python -m arsenal.forensics.amprente arsenal/forensics/probe
+
+arhiva.zip     ZIP         e026715077436f53
+imagine.png    PNG         ea3a9848da7e6c1d
+note.txt       necunoscut  27f8884260c60ec9
+raport.pdf     PDF         9023842e09242e5d
+
+LUCRAREA A - TESTE
+Comanda: python -m pytest -q arsenal/forensics/test_amprente.py
+...                                                                      [100%]
+3 passed
+
+LUCRAREA B - UNEALTA REPARATA
+Comanda executata din folderul reparare: python -m pytest -q
+...                                                                      [100%]
+3 passed
+
+CONTROL SUPLIMENTAR
+- tip(): PNG, PDF, ZIP si necunoscut verificate
+- citire binara cu with open(..., "rb")
+- SHA-256 prescurtat la 16 caractere
+- 4 fisiere scanate in ordine alfabetica
+- testele originale din reparare nu au fost modificate
+- generatorul optional amprente_lenes() produce acelasi rezultat ca scaneaza()
