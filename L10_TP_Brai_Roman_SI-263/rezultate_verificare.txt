@@ -1,0 +1,27 @@
+VERIFICARE PARSE_AUTH
+Comanda: python -m arsenal.aparare.parse_auth arsenal/aparare/start/auth.log
+
+Esecuri de autentificare: 15
+  203.0.113.9: 13
+  198.51.100.7: 2
+
+VERIFICARE DETECTOR
+Comanda: python -m arsenal.aparare.detector arsenal/aparare/start/auth.log
+
+Esecuri de autentificare: 15
+  203.0.113.9: 13
+  198.51.100.7: 2
+Suspecti (prag 10):
+  203.0.113.9  (13 incercari)  BRUTE FORCE
+
+VERIFICARE TESTE
+Comanda: python -m unittest arsenal.aparare.test_detector -v
+
+test_esec_accepta_utilizator_valid_si_invalid ... ok
+test_numararea_pe_ip ... ok
+test_prag_invalid ... ok
+test_pragul_taie ... ok
+test_raportul_real ... ok
+
+Ran 5 tests
+OK
